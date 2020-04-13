@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "plugins": ["react", "react-hooks", "jsx-a11y", "import"],
+  "rules": {
+    "linebreak-style": ["error", "unix"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight", "to"],
+        "aspects": ["noHref", "invalidHref", "preferButton"]
+      }
+    ]
+  },
+  "settings": {
+    "import/core-modules": [],
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true,
+    "node": true
+  }
+}
