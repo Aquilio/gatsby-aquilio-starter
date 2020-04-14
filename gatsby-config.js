@@ -2,6 +2,9 @@ const path = require('path');
 const config = require('./data/SiteConfig');
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: config.siteUrl,
+  },
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
