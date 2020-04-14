@@ -2,7 +2,7 @@ const config = {
   siteTitle: 'Aquil.io Gatsby Starter',
   siteLogo: '/logos/logo-512.png',
   siteImage: '/logos/logo-900.png',
-  siteIcon: '/logos/logo-512.png',
+  siteIcon: 'static/logos/logo-512.png',
   siteUrl: 'https://gatsby-starter-aquilio.netlify.com',
   pathPrefix: '/',
   siteDescription: 'Aquil.io Gatsby starter',
