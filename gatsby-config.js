@@ -60,6 +60,7 @@ module.exports = {
         alias: {
           '@components': 'src/components',
           '@hooks': 'src/hooks',
+          '@providers': 'src/providers',
           '@pages': 'src/pages',
           '@scss': 'src/scss',
           '@data': 'data',
