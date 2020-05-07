@@ -1,5 +1,6 @@
 const config = {
   siteTitle: 'Aquil.io Gatsby Starter',
+  siteTitleShort: 'Aquil.io Gatsby Starter',
   siteLogo: '/logos/logo-512.png',
   siteImage: '/logos/logo-900.png',
   siteIcon: 'static/logos/logo-512.png',

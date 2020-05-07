@@ -66,6 +66,7 @@ module.exports = {
           '@hooks': 'src/hooks',
           '@providers': 'src/providers',
           '@pages': 'src/pages',
+          '@images': 'src/images',
           '@scss': 'src/scss',
           '@data': 'data',
         },
